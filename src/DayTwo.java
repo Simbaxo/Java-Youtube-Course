@@ -30,7 +30,7 @@ public class DayTwo {
 //
 //        scanner.close();
 
-        // Calculate area of a rectange
+        // Calculate area of a rectangle
 
         double width = 0;
         double height = 0;
@@ -43,6 +43,9 @@ public class DayTwo {
 
         System.out.print("Enter height: ");
         height = scanner.nextDouble();
+
+        area = width * height;
+        System.out.println("The area is: " + area + "cm^2");
 
         scanner.close();
     }
